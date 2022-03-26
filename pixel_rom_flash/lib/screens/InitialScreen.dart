@@ -22,9 +22,9 @@ class InitialScreen extends StatelessWidget {
           const CircularProgressIndicator(),
           const Text("CHECKING FOR TOOLS..."),
           Column(
-            children: [
-              ItemCheckListBoxUi(padding: const EdgeInsets.all(8.0), status: true, 
-              child: child)
+            children: const [
+              ItemCheckListBoxUi(padding: EdgeInsets.all(8.0), status: true, 
+              child: Text("dad"))
             ],
           )
           
