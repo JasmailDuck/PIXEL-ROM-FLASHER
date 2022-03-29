@@ -19,7 +19,7 @@ class SplashScreen extends StatelessWidget {
             flex: 2,
             child:
             Center( child:
-            RiveAnimation.asset('assets\\pixel_launch.riv'),)),
+            RiveAnimation.asset('assets/pixel_launch.riv'),)),
           Expanded(
             flex: 0,
             child:Text("Text H")),
