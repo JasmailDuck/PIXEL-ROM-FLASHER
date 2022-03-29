@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pixel_rom_flash/screens/InitialScreen.dart';
+import 'package:pixel_rom_flash/screens/splash_screen.dart';
 
 void main() {
   runApp(const CromFlash());
@@ -13,7 +13,8 @@ class CromFlash extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Pixel Custom Rom Flasher',
-      home: InitialScreen(),
+      home: SplashScreen(),
     );
   }
 }
+
