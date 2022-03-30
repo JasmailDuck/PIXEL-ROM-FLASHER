@@ -21,16 +21,21 @@ class SplashScreen extends StatelessWidget {
       //Sets the hieght of the container to match the hieght of the window
       height: size.height,
 
+      //In the child of the scaffold, there is a column layout widget
       child: Column(
+        //Aligns the column content to the center
         mainAxisAlignment: MainAxisAlignment.center,
+
+        //The children of the column
         children: const [
+          //Expanded child; where the animation file goes
           Expanded(
-              flex: 2,
+
+              //Centers the animation
               child: Center(
-                child: RiveAnimation.asset('assets/pixel_launch.riv'),
-              )),
-          Expanded(flex: 0, child: Text("Text H")),
-          Expanded(child: Text("Version SVG"))
+            //Anaimtion file
+            child: RiveAnimation.asset('assets/pixel_launch.riv'),
+          )),
         ],
       ),
     ));
